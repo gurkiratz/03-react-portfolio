@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  li {
+    @apply cursor-pointer;
+  }
+}
+
+@layer utilities {
+  .h-primary {
+    @apply text-4xl font-bold inline border-b-4 border-pink-600;
+  }
+
+  .section {
+    @apply w-full h-screen bg-primary text-gray-300 mb-8;
+  }
+
+  .my-container {
+    @apply max-w-[1000px] w-full h-full mx-auto px-8 flex flex-col justify-center;
+  }
+
+  .content-div {
+    @apply bg-no-repeat bg-cover bg-center h-[250px];
+  }
+
+  .content-div:hover {
+    @apply bg-gradient-to-r from-indigo-600 to-violet-900 !important;
+  }
+}

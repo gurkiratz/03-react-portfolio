@@ -29,3 +29,8 @@
     @apply bg-gradient-to-r from-indigo-600 to-violet-900 !important;
   }
 }
+
+input,
+textarea {
+  @apply bg-[#ccd6f6] my-2 p-2 rounded !text-black;
+}
